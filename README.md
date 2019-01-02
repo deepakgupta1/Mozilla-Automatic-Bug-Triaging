@@ -1,6 +1,11 @@
 # Mozilla-Automatic-Bug-Triaging
 Predict the software component to which the bug should belong to, given the past data about bugs and the components to which they were associated.
 
+### Problem:
+Bugzilla is a bug tracking system from Mozilla. It is used to develop and maintain hundreds of software products, consisting of thousands of components. As new bugs are submitted into the system, their triaging (categorization by products and software components) becomes time and resource consuming, as many bug reporters are not closely familiar with internal division of software they use into products and component. Thus, members of Mozilla development team are assigned to be gatekeepers, who categorize and prioritize incoming bugs. This manual bug triaging consumes time of experienced engineers, which may be spent better, otherwise.
+
+In this Marathon Match we give you real data from the bug tracking system, and ask to implement an algorithm for automatic bug triaging. Given details of a submitted bug, your algorithm will deduce the software component that bug belongs to, and the confidence score of this deduction. Find more about the problem [here](https://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=17280&pm=15089).
+
 ### Approach:
 * Straightforward multiclass classification using Deep Learning.
 * Used multiple pre-trained embeddings and slightly different networks.
