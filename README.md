@@ -17,7 +17,7 @@ In this Marathon Match we give you real data from the bug tracking system, and a
 * Attention layer.
 * Dense layers.
 * Dropouts.
-All the models were combination of these layers.
+ All the models were combination of these layers.
 
 ### Pre-trained embeddings:
 * Fasttext common crawl.
