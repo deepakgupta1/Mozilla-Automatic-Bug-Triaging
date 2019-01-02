@@ -29,3 +29,30 @@ In this challenge we were given real data from the bug tracking system, and aske
 * I used only the bug description (short+long) as input to the models.
 * Tried using other features too but it worsened the results.
 * Tried giving weights to the classes to avoid class imbalance but it also worsened the results
+
+### Requirements:
+* Python 2.7
+* Numpy
+* Sklearn
+* Pandas
+* Keras
+
+### Pre-trained vectors:
+* https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec
+* https://s3-us-west-1.amazonaws.com/fasttext-vectors/crawl-300d-2M.vec.zip
+* https://s3-us-west-1.amazonaws.com/fasttext-vectors/crawl-300d-2M-subword.zip
+* http://nlp.stanford.edu/data/glove.840B.300d.zip
+
+### Code files:
+1. Merge.py
+2. Cudnn.py
+3. Attention.py
+4. Attention-glove.py
+5. Attention-wiki.py
+6. Attention-subword.py
+7. Bag.py
+
+### Run code:
+* Run the python scripts in the order specified above.
+* Keep all the input csv files and extracted pre-trained vectors in the current directory.
+* The output csv will be saved in the current directory.
